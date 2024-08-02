@@ -1,0 +1,132 @@
+.signup-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .background-video-1,
+  .background-video-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+  
+  .signup-content {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .signup-left {
+    padding: 40px;
+    max-width: 400px;
+    color: #fff;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .signup-left h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .signup-left p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .signup-left img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .signup-form {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-form h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .file-input {
+    margin-bottom: 20px;
+  }
+  
+  .submit-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  #ani1{
+    position: absolute;
+    z-index: 1; 
+    top: 78%;
+    left:25%;
+    transform: translate(-50%, -50%); 
+    animation: float 4s ease-in-out infinite;
+}
+#ani2{
+    position: absolute;
+    z-index: 1; 
+    top: 20%;
+    left:80%;
+    transform: translate(-50%, -50%); 
+    animation: float 4s ease-in-out infinite;
+}
+
+  @keyframes float {
+    0%, 100% {
+        transform: translate(-50%, -50%) translateY(0);
+    }
+    50% {
+        transform: translate(-50%, -50%) translateY(-20px); 
+    }
+}  

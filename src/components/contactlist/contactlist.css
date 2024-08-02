@@ -1,0 +1,68 @@
+.contact-list-container {
+  padding: 20px;
+  background-color: #ffffff;
+  border-right: 1px solid #ddd;
+ 
+}
+
+.contact-list-container button {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-list-container button:hover {
+  background-color: #0056b3;
+}
+
+.contact-list-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-list-container li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+ 
+}
+
+.contact-list-container li img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.contact-list-container li span {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.contact-list-container li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #ff4b5c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-list-container li button:hover {
+  background-color: #ff2e44;
+}
+
+.contact-list-container li button.pin-btn {
+  background-color: #ffc107;
+}
+
+.contact-list-container li button.pin-btn:hover {
+  background-color: #e0a800;
+}
